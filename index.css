@@ -1,19 +1,16 @@
-/* Ensure no scrolling and full height layout */
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
-  background-image: url('20241224_193809.jpg');
+  background-image: url('images/20241224_193809.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow: hidden; /* Prevent scrolling */
+  overflow: hidden; 
 }
-
-/* Wrapper for main content */
 .main-content {
   display: flex;
   flex-direction: column;
@@ -22,7 +19,7 @@ html, body {
   justify-content: center;
 }
 
-/* Main content box */
+
 .content-box {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 40px;
@@ -32,7 +29,7 @@ html, body {
   margin-bottom: 20px;
 }
 
-/* Social media box */
+
 .social-box {
   background-color: rgba(0, 0, 0, 0.85);
   padding: 15px 0;
@@ -63,10 +60,10 @@ footer {
 }
 
 footer a {
-  color: #ccc;
+  color: #cef;
 }
 
-/* Typography */
+
 h1 {
   font-family: 'Pacifico', cursive;
   font-size: 2.8em;
@@ -105,5 +102,18 @@ a {
 .social-icon:hover {
   transform: scale(1.1);
 }
+
+a.resume-link {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #8B5A2B; /* wood-like color */
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+a.resume-link:hover {
+  color: #5c3b1e;
+}
+
 
 
